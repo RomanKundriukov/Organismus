@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "Über uns",
+        "services": "Service",
+        "contact": "Kontakt",
+        "partnership": "Für Partner"
+    },
+    "home": {
+        "test": "huita"
+    }
+}

@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  //height: calc(100vh - 3em); //3em padding in html
+  //width: calc(100vh - 3em);
+  height: auto;
+  width: auto;
+}
+
+.navbar {
+  flex: 0 0 10%;           // feste Breite: 10% der Seite
+  max-width: 200px;        // optional: maximale Breite
+  min-width: 100px;        // optional: minimale Breite
+  //background-color: rgba(255, 255, 255, 0.15); // optional z. B. für Glassmorphism
+  //backdrop-filter: blur(10px);                // размытие
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.outlet {
+  flex: 1;                  // nimmt den restlichen Platz
+  overflow-y: auto;         // scrollbar, wenn Inhalt zu groß
+  padding: 2em;             // etwas Innenabstand
+}

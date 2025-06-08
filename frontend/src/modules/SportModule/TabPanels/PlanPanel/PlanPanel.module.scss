@@ -1,0 +1,12 @@
+.planCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-evenly;
+}
+
+.planCard > * {
+  flex: 1 1 250px;
+  max-width: 300px;
+}

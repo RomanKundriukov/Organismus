@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Our Services",
+    "contact": "Contact Us",
+    "partnership": "Partnership"
+  },
+  "home": {
+    "test": "Penis"
+  }
+}
